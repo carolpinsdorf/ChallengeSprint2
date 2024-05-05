@@ -1,0 +1,42 @@
+
+body{
+    background-color: black;
+    background-image: url(../imagenSite/fundoCarDiag.png);
+    background-position: right 100%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.contenteCarDiag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pCarDiag{
+    font-size: 35px;
+    font-weight: 250;
+    color: #b3c0ce;
+    text-align: center;
+    width: 40%;
+    display: flex;
+    margin: 5% 5% 1%;
+}
+.h2CarDiag{
+    font-size: 30px;
+    text-decoration: none;
+    color: #b3c0ce;
+    font-weight: 250;
+    text-align: center;
+    padding: 5px 10px;
+}
+.h2CarDiag:hover{
+    color: #3ba8e7;
+}
+.botaoBaixeAgora{
+    background-color: #021c47;
+    border-radius: 50px;
+    padding: 5px;
+    width: 200px;
+    display: flex;
+    margin: 5% 16% 0%;
+}
+
