@@ -1,0 +1,29 @@
+
+body{
+    background-image: url(../imagenSite/fundoCarDiagScanner.png);
+    background-size: 100%;
+    background-position: bottom;
+}
+.textoCDS{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 48%; 
+    padding: 5% 1% 3%;
+    text-align: right; 
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+.h3CDS {
+    background: linear-gradient(to right, #232728 0%, #806E65 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.pCDS {
+    color: #b3c0ce; 
+    font-size: 42px;
+    font-weight: 350;
+}
