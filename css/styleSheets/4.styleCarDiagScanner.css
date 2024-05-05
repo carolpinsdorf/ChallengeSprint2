@@ -1,3 +1,4 @@
+/* cores           azul porto 3ba8e7     branco/ciza b3c0ce   azul escuro 021d47a4 */
 
 body{
     background-image: url(../imagenSite/fundoCarDiagScanner.png);
@@ -15,12 +16,11 @@ body{
     margin-right: 5%;
 }
 .h3CDS {
-    background: linear-gradient(to right, #232728 0%, #806E65 100%);
+    background: linear-gradient(to right, #3ba8e7 0%, #97d2f5 100%);
     background-clip: text;
     color: transparent;
     font-size: 40px;
     font-weight: bold;
-    
 }
 .pCDS {
     color: #b3c0ce; 

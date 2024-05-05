@@ -43,6 +43,41 @@
             </div>
         </nav>
         <!-- AQUI COMEÇA O CONTEÚDO ESPECÍFICO DA PÁGINA -->
+        <h2 class="h2Suporte">Queremos seu feedback</h2>
+
+        <div class="contentSuporte">
+            <section>
+                <form action="feedback" method="get">
+                    <fieldset>
+                        <div class="formDadosPessoais">
+                            <div class="campoNome">
+                                <label class="labelDados" for="idNome"> Nome: </label>                 
+                                <input class="inputDados" type="text" name="nome" id="idNome"> <br> 
+                            </div>     
+                            <div class="campoEmail">
+                                <label class="labelDados" for="idEmail"> E-mail: </label>
+                                <input class="inputDados" type="email" name="email" id="idEmail"> <br>   
+                            </div>
+                        </div>
+                    </fieldset>
+                
+                    <fieldset>
+                        <div class="formExperiencia">
+                            <legend><h3 class="h3Experiencia">Descreva sua experiência: </h3></legend>
+                            <textarea class="textareaExp" name="experiencia" id="idExperiencia" cols="30" rows="10"></textarea>
+                        </div>
+                    </fieldset>
+                    <div class="botaoEnviar">
+                        <input class="inputEnviar" type="submit" value="Enviar">                
+                    </div>
+                </form>
+            </section>
+            <section>
+                <div class="pSuporte">
+                    <p>Suporte via e-mail <br> suporte@gaid.com <br>SAC <br> (11)555130 </p>
+                </div>
+            </section>
+        </div>
 
     </div>
     <footer>
