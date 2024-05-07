@@ -63,7 +63,8 @@ fieldset{
 }
 .botaoEnviar{
     display: flex;
-    margin-left: 79%;}
+    margin-left: 79%;
+}
 .pSuporte{
     color: #b3c0ce;
     font-size: 30px;

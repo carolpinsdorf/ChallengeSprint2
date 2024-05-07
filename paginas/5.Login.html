@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Log-In </title>
+    <title>Log In </title>
     <link rel="apple-touch-icon" sizes="180x180" href="../css/imagenSite/favicon_ioLogo/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../css/imagenSite/favicon_ioLogo/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../css/imagenSite/favicon_ioLogo/favicon-16x16.png">
     <link rel="stylesheet" href="../css/styleSheets/1.styleGeral.css">
     <link rel="stylesheet" href="../css/styleSheets/7.styleLogin.css">
+</head>
+<body>
+    <div class="contentLogin">
+        <header>
+            <div class="LogoLogin">
+                <img src="../css/imagenSite/LogoGaid.png" alt="Logo GAID" width="100px">
+            </div>
+            <h2 id="h2Login">Realizar Login</h2>
+        </header>
+    
+        <div class="login-container">
+            <section>
+                <form action="processar_login.php" method="post">
+                    <div class="form-group">
+                        <label for="username">Nome:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="botaoEnviar">
+                        <input class="inputEnviar" type="submit" value="Enviar">                
+                    </div>
+                </form>
+            </section>
+        </div>
+        <div class="elementoLogin">
+            <section>
+                <h3 id="h3Login">Esqueceu a senha?</h3>
+            </section>
+            <section>
+                <h3 id="h3LoginLink"><a href="6.CadastroCliente.html">Não tem uma conta? Cadastre-se</a></h3>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div class="LogoPorto">
+            <a href="https://www.portoseguro.com.br/centros-automotivos-porto-seguro" target="_blank">
+                <img src="../css/imagenSite/LogoPorto.png" width="150px" alt="Logo Porto Centro Automotivo">
+            </a>
+        </div>
+    </footer>
+
+    <!-- Script para alternar entre mostrar e ocultar a senha -->
+    <script>
+        document.getElementById('togglePassword').addEventListener('click', function() {
+            
+            // Alternar entre os tipos de entrada de senha e texto
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                icon.classList.remove('fa-eye-slash');
+                icon.classList.add('fa-eye');
+            } else {
+                passwordInput.type = 'password';
+                icon.classList.remove('fa-eye');
+                icon.classList.add('fa-eye-slash');
+            }
+        });
+    </script>
+</body>
+</html>
