@@ -21,7 +21,7 @@
     
         <div class="login-container">
             <section>
-                <form action="processar_login.php" method="post">
+                <form action="login" method="get">
                     <div class="form-group">
                         <label for="username">Nome:</label>
                         <input type="text" id="username" name="username" required>
@@ -52,22 +52,5 @@
             </a>
         </div>
     </footer>
-
-    <!-- Script para alternar entre mostrar e ocultar a senha -->
-    <script>
-        document.getElementById('togglePassword').addEventListener('click', function() {
-            
-            // Alternar entre os tipos de entrada de senha e texto
-            if (passwordInput.type === 'password') {
-                passwordInput.type = 'text';
-                icon.classList.remove('fa-eye-slash');
-                icon.classList.add('fa-eye');
-            } else {
-                passwordInput.type = 'password';
-                icon.classList.remove('fa-eye');
-                icon.classList.add('fa-eye-slash');
-            }
-        });
-    </script>
 </body>
 </html>
