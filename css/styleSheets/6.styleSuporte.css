@@ -1,85 +1,113 @@
 /* cores           azul porto 3ba8e7     branco/ciza b3c0ce   azul escuro 021d47a4 */
-body{
+body {
+  background-image: url(../imagenSite/fundoEscuro.png);
+}
+.h2Suporte {
+  text-align: center;
+  font-size: 35px;
+  color: #3ba8e7;
+  padding: 15px;
+}
+.formDadosPessoais,
+.formServico {
+  color: #b3c0ce;
+}
+fieldset {
+  border: #021d47a4;
+}
+.labelDados {
+  padding: 15px 30px 10px;
+  margin: 50px 10px;
+  font-size: 25px;
+}
+.campoNome,
+.campoEmail {
+  padding: 10px;
+}
+.inputDados,
+textarea {
+  background-color: #021d47a4;
+  font-size: 25px;
+  color: #3ba8e7;
+  width: 500px;
+  height: 40px;
+  border: #021d47a4;
+  border-radius: 10px;
+  padding: 2px 0 2px 10px;
+}
+.h3Experiencia {
+  padding: 15px 15px;
+  margin: 10px 5px;
+  font-size: 25px;
+  display: inline;
+  color: #b3c0ce;
+  font-weight: 300;
+}
+.formExperiencia {
+  padding: 20px 50px;
+}
+.textareaExp {
+  padding: 15px;
+  width: 600px;
+  height: 200px;
+}
+.inputEnviar {
+  font-size: 25px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #021d47a4;
+  color: #b3c0ce;
+  padding: 5px;
+  border: #3ba8e7;
+}
+.inputEnviar:hover {
+  background-color: #021c47;
+  color: #3ba8e7;
+}
+.botaoEnviar {
+  display: flex;
+  margin-left: 79%;
+}
+.pSuporte {
+  color: #b3c0ce;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  width: fit-content;
+  margin: 60% 0 5%;
+  border-radius: 10px;
+  background-color: #021d47a4;
+  padding: 20px;
+}
+.contentSuporte {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media (max-width: 900px) {
+  body {
     background-image: url(../imagenSite/fundoEscuro.png);
+    background-size: 300%;
+    background-position: bottom;
+  }
 }
-.h2Suporte{
-    text-align: center;
-    font-size: 35px;
-    color: #3ba8e7;
-    padding: 15px;
-}
-.formDadosPessoais, .formServico{
-    color: #b3c0ce;
-}
-fieldset{
-    border: #021d47a4;
-}
-.labelDados{
-    padding: 15px 30px 10px;
-    margin: 50px 10px;
-    font-size: 25px;
-}
-.campoNome, .campoEmail{
-    padding: 10px;
-}
-.inputDados, textarea{
+@media (max-width: 710px) {
+  .inputDados,
+  textarea {
     background-color: #021d47a4;
-    font-size: 25px; 
-    color:#3ba8e7 ;
-    width: 500px;
+    font-size: 25px;
+    color: #3ba8e7;
+    width: 270px;
     height: 40px;
     border: #021d47a4;
     border-radius: 10px;
     padding: 2px 0 2px 10px;
-}
-.h3Experiencia{
-    padding: 15px 15px;
-    margin: 10px 5px;
-    font-size: 25px;
-    display: inline;
-    color: #b3c0ce;
-    font-weight: 300;
-}
-.formExperiencia{
-    padding: 20px 50px;
-}
-.textareaExp{
-    padding: 15px;
-    width: 600px;
-    height: 200px;
-}
-.inputEnviar{
-    font-size: 25px;
-    width: 100px;
-    border-radius: 10px;
-    background-color: #021d47a4;
-    color: #b3c0ce;
-    padding: 5px;
-    border: #3ba8e7;
-}
-.inputEnviar:hover{
-    background-color: #021c47;
-    color: #3ba8e7;
-}
-.botaoEnviar{
-    display: flex;
-    margin-left: 79%;
-}
-.pSuporte{
-    color: #b3c0ce;
-    font-size: 30px;
-    text-align: center;
-    display: flex;
-    width: fit-content;
-    margin: 60% 0 5%;
-    border-radius: 10px;
-    background-color: #021d47a4;
-    padding: 20px;
-}
-.contentSuporte{
-    margin-top: 3%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  }
+  .textareaExp {
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+  }
 }

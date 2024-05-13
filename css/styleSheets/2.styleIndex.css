@@ -41,25 +41,49 @@ h3 {
   padding: 5px;
 }
 /* Media Query para Desktop */
-@media only screen and (max-width: 1199px) {
+@media (max-width: 1277px) {
   body {
-    background-size: 115%;
+    background-size: 150%;
   }
   .botaoSaibaMais {
-    margin: 20% 43% 0;
+    margin: 20% 42% 0;
+  }
+  #pHome {
+    font-size: 45px;
   }
 }
-
 /* Media Query para Tablets */
-@media only screen and (max-width: 834px) {
+@media (max-width: 900px) {
   body {
     background-size: 180%;
   }
   .botaoSaibaMais {
     margin: 20% 40% 0;
   }
+  #pHome {
+    font-size: 40px;
+  }
 }
 
 /* Media Query para Dispositivos Móveis */
-@media only screen and (max-width: 744px) {
+@media (max-width: 744px) {
+  #pHome {
+    font-size: 35px;
+  }
+  body {
+    background-size: 250%;
+  }
+  .logoPorto {
+    margin: auto;
+    padding: 3px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    background-size: 300%;
+  }
+  .botaoSaibaMais {
+    margin: 70% 40% 0;
+  }
 }
