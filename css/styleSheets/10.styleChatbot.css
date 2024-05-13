@@ -1,0 +1,86 @@
+/* cores           azul porto 3ba8e7     branco/ciza b3c0ce   azul escuro 021d47a4 */
+
+body{
+    background-image: url(../imagenSite/fundoChat.png);
+    overflow-y: hidden;
+}
+
+
+.headerChat {
+    background-color: #00000049;
+    width: 100%;
+}
+
+.h1Chat {
+    font-size: 25px;
+}
+
+.saudacaoGaldi {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.respotaVoce {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+}
+
+.reticencias,
+.imgUsuario,
+.boxGaldi,
+.imgGaldi {
+    display: inline-block;
+}
+
+.boxGaldi {
+    
+    width: 50%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.textoGaldi {
+    color: #b3c0ce;
+    font-size: 20px;
+    font-weight: 250;
+}
+
+.h2Galdi {
+    text-align: right;
+    font-size: 30px;
+}
+
+.boxResposta{
+    background-color: #00000070;
+    height: 0px;
+    padding: 600px 200px;
+}
+.inputMensagem {
+    width: calc(100% - 150px); /* Ajuste a largura do campo de entrada conforme necessário */
+}
+.campoResposta{
+    background-color: #021d47a4;
+    border-radius: 10px;
+    height: 60px;
+}
+.Digite{
+    font-size: 20px;
+    color: aliceblue;
+    padding: 10px 25px 5px;
+    display: inline-block;
+}
+.botaoEnviarMsg{
+    background-color: #0f4397a4;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 5px 45px;
+    width: fit-content;
+    border-radius: 25px;
+    display: inline-block;
+    position: absolute;
+    right: 8%;
+    bottom: 2%;
+}
+

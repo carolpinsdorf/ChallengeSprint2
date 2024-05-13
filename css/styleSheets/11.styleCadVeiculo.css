@@ -1,0 +1,113 @@
+/* cores           azul porto 3ba8e7     branco/ciza b3c0ce   azul escuro 021d47a4 */
+
+body{
+    background-image: url(../imagenSite/fundoCadastroVeiculo.png);
+}
+
+
+.headerCadastroV{
+    background-color: black;
+    display: inline;
+    height: 100px;
+}
+.h1CadastroV{
+    font-size: 35px;
+    color: #b3c0ce ; 
+
+}
+.logoGaidCadastroV{
+    width: fit-content;
+    float: left;
+}
+.tituloCadastroV{
+    padding: 15px;
+    position: absolute;
+    top:2%;
+    left: 35%;
+}
+.iconeCarroCadastroV{
+    position: absolute;
+    left: 63%;
+}
+.labelPlaca, .labelAnoV, .campoModeloV, .campoMarcaV, .labelTipoV, .labelTipoCombust, .h3TipoCombust{
+    font-size: 20px;
+    color: #eee5e5a4 
+}
+.campoPlaca, .campoAnoV{
+    width: 50%;
+    float: left;
+    padding: 60px 15px 30px 60px;
+}
+.campoModeloV, .campoMarcaV{
+    width: 50%;
+    float: right;
+    padding: 10px 15px 17px 60px;
+}
+.tipoV{
+    width: fit-content;
+    padding: 0px 60px ;
+}
+.labelTipoV, .labelTipoCombust{
+    padding: 15px;
+    display: inline;
+}
+.tipoCombust{
+    width: fit-content;
+    position: absolute;
+    right: 23%;
+    top: 37.5%;
+}
+.inputPlaca, .inputAnoV, .inputModeloV, .inputMarcaV{
+    background-color: #b3c0ce;
+    font-size: 25px; 
+    color:#1c6cc2;
+    width: 350px;
+    height: 40px;
+    border: #13453c;
+    border-radius: 10px;
+}
+.botaoEnviarV{
+    display: flexbox;
+    flex-direction: row-reverse;
+    margin: 0px 50%;
+    float: right;
+}
+select{
+    appearance: none;
+    background-color: #b3c0ce;
+    color: #021d47a4;    
+    font-size: 20px;
+    border: none;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+.formCambio, .formCombustivel{
+    display: flexbox;
+    width: fit-content;
+    padding: 5px 45px;    
+}
+.botaoSairCadV{
+    position: fixed;
+    bottom: 0px;
+    left: 44%;
+}
+.pBotaoSairCadV{
+    font-size: 20px;
+    text-align: center;
+    color: #b3c0ce;
+}
+.inputEnviar {
+    background-color: #021d47a4; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 10px 15px; /* Espaçamento interno */
+    font-size: 18px; /* Tamanho da fonte */
+    border: none; /* Remove a borda */
+    border-radius: 10px; /* Borda arredondada */
+    cursor: pointer; /* Mostra um cursor de mão quando o mouse passa por cima */
+}
+
+/* Efeito de hover */
+.inputEnviar:hover {
+    background-color: #3ba8e7; /* Cor de fundo verde mais escura quando o mouse passa por cima */
+}

@@ -9,3 +9,66 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../css/imagenSite/favicon_ioLogo/favicon-16x16.png">
     <link rel="stylesheet" href="../css/styleSheets/1.styleGeral.css">
     <link rel="stylesheet" href="../css/styleSheets/11.styleCadVeiculo.css">
+</head>
+<body class="bodyCadastroV">
+    <header class="headerCadastroV">
+        <div class="logoGaidCadastroV">
+            <img src="../css/imagenSite/LogoGaid.png" width="100px" alt=" Logo GAID">
+        </div>
+        <div class="tituloCadastroV">
+            <h1 class="h1CadastroV">Cadastro de veículo</h1>
+        </div>
+        <div class="iconeCarroCadastroV">
+            <img src="../css/imagenSite/iconCarro.png" width="120px" alt="Icone de um Fusca verde com laranja">
+        </div>
+    </header>
+    <form action="cadastroVeiculo" method="get">
+        <fieldset>
+            <div class="campoPlaca">
+                <label class="labelPlaca" for="idPlaca"> Placa do veículo: </label>                 
+                <input class="inputPlaca" type="text" name="placa" id="idPlaca"> <br> 
+            </div>  
+            <div class="campoAnoV">
+                <label class="labelAnoV" for="idAno"> Ano de fabricação: </label>                 
+                <input class="inputAnoV" type="number" name="ano" id="idAno" min="1990" max="2024" step="1"> <br> 
+            </div>  
+            <div class="campoModeloV">
+                <label class="labelModeloV" for="idModelo"> Modelo do veículo: </label>                 
+                <input class="inputModeloV" type="text" name="modelo" id="idModelo"> <br> 
+            </div> 
+            <div class="campoMarcaV">
+                <label class="labelMarcaV" for="idMarca"> Marca do veículo: </label>                 
+                <input class="inputMarcaV" type="text" name="marca" id="idMarca"> <br> 
+            </div>   
+        </fieldset>
+        <fieldset>
+            <div class="formCambio">
+                <label class="labelTipoV" for="idCambio">Câmbio: </label>
+                <select name="cambio" id="idCambio">
+                    <option value="auto">Automático</option>      
+                    <option  value="manual">Manual</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="formCombustivel">
+                <label class="labelTipoCombust" for="idTipoCombust">Tipo de combustível: </label>
+                <select name="tipoCombust" id="idTipoCombust">
+                    <option  value="Flex">Flex</option>      
+                    <option  value="Gasol">Gasolina</option>
+                    <option  value="Diesel">Diesel</option>
+                </select>
+            </div>
+        </fieldset>
+        <div class="botaoEnviarV">
+            <input class="inputEnviar" type="submit" value="Enviar">                
+        </div>
+    </form>
+    <a href="../paginas/7.AreaCliente.html">
+        <div class="botaoSairCadV">
+            <img src="../css/imagenSite/iconSair.png" width="100px" alt="Icone de uma porta aberta - Sair">
+            <p class="pBotaoSairCadV">Sair</p>
+        </div>
+    </a>
+</body>
+</html>
