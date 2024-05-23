@@ -2,7 +2,7 @@
 
 body {
   background-image: url(../imagenSite/fundoCarDiagScanner.png);
-  background-size: 100%;
+  background-size: 130%;
   background-position: bottom;
 }
 .textoCDS {
@@ -27,17 +27,45 @@ body {
   font-size: 42px;
   font-weight: 350;
 }
-@media (max-width: 1277px) {
+@media (max-width: 1280px) {
   body {
     background-image: url(../imagenSite/fundoCarDiagScanner.png);
-    background-size: 130%;
+    background-size: 125%;
     background-position: 15% bottom;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1196px) {
   body {
     background-image: url(../imagenSite/fundoCarDiagScanner.png);
-    background-size: 160%;
+    background-size: 140%;
+    background-position: 15% bottom;
+  }
+}
+@media (max-width: 1098px) {
+  body {
+    background-image: url(../imagenSite/fundoCarDiagScanner.png);
+    background-size: 150%;
+    background-position: 15% bottom;
+  }
+}
+@media (max-width: 1076px) {
+  body {
+    background-image: url(../imagenSite/fundoCarDiagScanner.png);
+    background-size: 180%;
+    background-position: 15% bottom;
+  }
+}
+@media (max-width: 946px) {
+  body {
+    background-image: url(../imagenSite/fundoCarDiagScanner.png);
+    background-size: 210%;
+    background-position: 15% bottom;
+  }
+}
+@media (max-width: 845px) {
+  body {
+    background-image: url(../imagenSite/fundoCarDiagScanner.png);
+    background-size: 250%;
     background-position: 15% bottom;
   }
 }
@@ -60,6 +88,11 @@ body {
     background-position: 20% bottom;
   }
 }
+@media (max-width: 629px) {
+  body {
+    background-size: 300%;
+  }
+}
 @media (max-width: 576px) {
   body {
     background-size: 335%;
@@ -75,5 +108,24 @@ body {
     color: transparent;
     font-size: 35px;
     font-weight: bold;
+  }
+}
+@media (max-width: 505px) {
+  body {
+    background-size: 400%;
+  }
+}
+@media (max-width: 450px) {
+  body {
+    background-size: 610%;
+  }
+
+  .pCDS {
+    color: #b3c0ce;
+    font-size: 15px;
+    font-weight: 350;
+  }
+  .h3CDS {
+    font-size: 20px;
   }
 }

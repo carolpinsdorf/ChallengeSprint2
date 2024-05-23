@@ -111,3 +111,22 @@ textarea {
     height: 100px;
   }
 }
+@media (max-width: 470px) {
+  .h3Experiencia {
+    padding: 15px 15px;
+    margin: 5px 3px;
+    font-size: 20px;
+    display: inline;
+    color: #b3c0ce;
+    font-weight: 300;
+  }
+  .inputEnviar {
+    font-size: 25px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #021d47a4;
+    color: #b3c0ce;
+    padding: 5px;
+    border: #3ba8e7;
+  }
+}
