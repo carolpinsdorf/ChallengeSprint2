@@ -1,0 +1,63 @@
+/* cores           azul porto 3ba8e7     branco/ciza b3c0ce   azul escuro 021d47a4 */
+body{
+    background-image: url(../imagenSite/fundoAreaCliente.png);
+}
+.h1Cliente{
+    margin-top: 1.5%;
+    font-size: 35px;
+    color: #b3c0ce;
+    
+}
+.headerCliente{
+    background-color: #021d47a4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoCliente{
+    margin-right: auto;
+}
+.tituloCliente{
+    width: 100%; 
+    text-align: center; 
+    top: 5%; 
+}
+.menu-opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3% 5%;
+}
+.opcao {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #021d47a4; 
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5); 
+    cursor: pointer;
+    margin: 30px;
+    float: left;
+}
+.opcao img {
+    width: 200px; 
+    height: auto; 
+}
+.opcao:hover {
+    background-color: #3ba8e74e; 
+    cursor: pointer;
+}
+.texto-opcao{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #b3c0ce;
+}
+footer{
+    margin: auto;
+    background-color: transparent;
+}
+
+
