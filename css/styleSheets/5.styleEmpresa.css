@@ -1,42 +1,63 @@
 /* cores           azul porto 3ba8e7     branco/ciza b3c0ce   azul escuro 021d47a4 */
 
-body{
+body {
+  background-image: url(../imagenSite/fundoEscuro.png);
+}
+.empresaMembros {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+.textoRafa,
+.textoCarol,
+.textoVictor {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+}
+h3 {
+  color: #3ba8e7;
+}
+.repo {
+  margin: auto;
+  width: fit-content;
+  font-size: 20px;
+  background-color: #3ba8e770;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+p a,
+.repo a {
+  color: #b3c0ce;
+  text-decoration: underline;
+}
+p a:hover,
+.repo a:hover {
+  color: #3ba8e7;
+}
+
+@media (max-width: 1200px) {
+  body {
     background-image: url(../imagenSite/fundoEscuro.png);
+    background-size: 190%;
+    background-position: bottom;
+  }
 }
-.contentEmpresa{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: space-between;
+@media (max-width: 900px) {
+  body {
+    background-image: url(../imagenSite/fundoEscuro.png);
+    background-size: 250%;
+    background-position: bottom;
+  }
 }
-.empresaMembros{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 25px;
+@media (max-width: 750px) {
+  body {
+    background-image: url(../imagenSite/fundoEscuro.png);
+    background-size: 400%;
+    background-position: bottom;
+  }
 }
-.textoRafa, .textoCarol, .textoVictor {
-    color: white; 
-    font-size: 20px;
-    text-align: center;  
-    padding: 5px;
-}
-h3{
-    color: #3ba8e7;
-}
-.repo{
-    margin: auto;
-    width: fit-content;
-    font-size: 20px;
-    background-color: #3ba8e770;
-    border-radius: 10px;
-    padding: 5px 10px;
-}
-p a, .repo a{
-    color: #b3c0ce;
-    text-decoration: underline;
-}
-p a:hover, .repo a:hover{
-    color: #3ba8e7;
-}
+
