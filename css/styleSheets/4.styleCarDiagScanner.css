@@ -1,0 +1,131 @@
+/* cores           azul porto 3ba8e7     branco/ciza b3c0ce   azul escuro 021d47a4 */
+
+body {
+  background-image: url(../imagenSite/fundoCarDiagScanner.png);
+  background-size: 130%;
+  background-position: bottom;
+}
+.textoCDS {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 48%;
+  padding: 5% 1% 3%;
+  text-align: right;
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
+.h3CDS {
+  background: linear-gradient(to right, #3ba8e7 0%, #97d2f5 100%);
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  font-weight: bold;
+}
+.pCDS {
+  color: #b3c0ce;
+  font-size: 42px;
+  font-weight: 350;
+}
+@media (max-width: 1280px) {
+  body {
+    background-image: url(../imagenSite/fundoCarDiagScanner.png);
+    background-size: 125%;
+    background-position: 15% bottom;
+  }
+}
+@media (max-width: 1196px) {
+  body {
+    background-image: url(../imagenSite/fundoCarDiagScanner.png);
+    background-size: 140%;
+    background-position: 15% bottom;
+  }
+}
+@media (max-width: 1098px) {
+  body {
+    background-image: url(../imagenSite/fundoCarDiagScanner.png);
+    background-size: 150%;
+    background-position: 15% bottom;
+  }
+}
+@media (max-width: 1076px) {
+  body {
+    background-image: url(../imagenSite/fundoCarDiagScanner.png);
+    background-size: 180%;
+    background-position: 15% bottom;
+  }
+}
+@media (max-width: 946px) {
+  body {
+    background-image: url(../imagenSite/fundoCarDiagScanner.png);
+    background-size: 210%;
+    background-position: 15% bottom;
+  }
+}
+@media (max-width: 845px) {
+  body {
+    background-image: url(../imagenSite/fundoCarDiagScanner.png);
+    background-size: 250%;
+    background-position: 15% bottom;
+  }
+}
+@media (max-width: 744px) {
+  .h3CDS {
+    background: linear-gradient(to right, #3ba8e7 0%, #97d2f5 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .pCDS {
+    color: #b3c0ce;
+    font-size: 35px;
+    font-weight: 350;
+  }
+  body {
+    background-image: url(../imagenSite/fundoCarDiagScanner.png);
+    background-size: 270%;
+    background-position: 20% bottom;
+  }
+}
+@media (max-width: 629px) {
+  body {
+    background-size: 300%;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    background-size: 335%;
+  }
+  .pCDS {
+    color: #b3c0ce;
+    font-size: 30px;
+    font-weight: 350;
+  }
+  .h3CDS {
+    background: linear-gradient(to right, #3ba8e7 0%, #97d2f5 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 35px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 505px) {
+  body {
+    background-size: 400%;
+  }
+}
+@media (max-width: 450px) {
+  body {
+    background-size: 610%;
+  }
+
+  .pCDS {
+    color: #b3c0ce;
+    font-size: 15px;
+    font-weight: 350;
+  }
+  .h3CDS {
+    font-size: 20px;
+  }
+}

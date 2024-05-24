@@ -1,0 +1,114 @@
+/* cores           azul porto 3ba8e7     branco/ciza b3c0ce   azul escuro 021d47a4 */
+header {
+  background-color: rgb(0, 0, 0);
+}
+
+body {
+  background-image: url(../imagenSite/fundoEscuro.png);
+}
+
+.headerAgendamento {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  justify-content: space-between; /* Adiciona espaço entre os elementos filhos */
+  align-items: center; /* Centraliza verticalmente os elementos filhos */
+}
+
+.h1Agendamento {
+  font-size: 35px;
+  color: #b3c0ce;
+  text-align: center;
+  margin-left: 90px;
+}
+
+.tituloAgendamento {
+  font-size: 35px;
+  color: #b3c0ce;
+  text-align: center;
+  margin: 0; /* Remove margens */
+  flex-grow: 1; /* Permite que o título ocupe o espaço restante */
+  margin-left: 400px;
+}
+
+.logoGaidAgendamento {
+  width: 100px; /* Define a largura da logo */
+  margin-left: 20px; /* Adiciona margem à esquerda */
+}
+
+.iconeAgendamento {
+  width: 700px; /* Define a largura do ícone */
+  margin-right: 20px; /* Adiciona margem à direita */
+}
+
+.agendamento {
+  width: 40%;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  height: 400px;
+  margin-top: -50px;
+}
+.agendamento {
+  background-color: #021d47a4;
+  padding: 10px;
+  border-radius: 60px;
+  color: white; /* Cor do texto padrão */
+}
+
+.agendamento h2 {
+  color: #ffffff; /* Cor do texto para o título "Oficina: DiagnostiCar" */
+}
+
+.agendamento p:first-of-type {
+  color: #b3c0ce;
+}
+
+.saudacao {
+  margin-top: 5%;
+  color: #b3c0ce; /* Cor do texto para a saudação */
+  font-size: 25px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.agendados h2 {
+  background-color: #021d47a4; /* Cor de fundo para a saudação */
+  color: #ffffff; /* Cor do texto para "Agendados" */
+  width: 15%;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 30px;
+  padding: 10px;
+  margin-left: 30px;
+  margin-bottom: 60px;
+}
+
+.infoCarro {
+  background-color: #021d47a4; /* Cor de fundo do box */
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 30px; /* Borda arredondada */
+  width: 40%; /* Largura do box */
+  max-width: 650px; /* Largura máxima do box */
+  margin: 0 auto; /* Centralizar o box horizontalmente */
+  text-align: center;
+  font-size: 25px;
+  color: white; /* Cor do texto */
+  margin-top: -400px; /* Mover para cima */
+  margin-right: 30px; /* Mover para a direita */
+}
+.iconeCarroAgendamento {
+  position: fixed; /* Definir como posição relativa */
+  top: 50px; /* Mover para cima */
+  right: 200px; /* Mover para a direita */
+}
+.botaoSair {
+  position: fixed; /* Define a posição fixa */
+  bottom: -10px; /* Distância do fundo */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translateX(
+    -50%
+  ); /* Move para a esquerda metade da largura do próprio elemento */
+}
